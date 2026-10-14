@@ -8,5 +8,4 @@ def student_list(request):
         {"id": 1, "name": "Rahul", "course": "Python"},
         {"id": 2, "name": "Priya", "course": "Full Stack Development"},
     ]
-
     return Response({"students": students})
